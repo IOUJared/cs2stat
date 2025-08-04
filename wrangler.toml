@@ -1,0 +1,12 @@
+name = "cs2-stats-tracker"
+compatibility_date = "2024-08-21"
+compatibility_flags = ["nodejs_compat"]
+
+pages_build_output_dir = "./dist"
+
+[env.production.vars]
+# Add your production environment variables here
+# STEAM_API_KEY will be set via Cloudflare Pages dashboard
+
+[env.preview.vars]
+# Preview environment variables

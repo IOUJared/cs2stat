@@ -1,0 +1,35 @@
+{
+  "name": "cs2stat",
+  "version": "1.0.0",
+  
+  "description": "w",
+  "main": "index.js",
+   "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IOUJared/cs2stat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/IOUJared/cs2stat/issues"
+  },
+  "homepage": "https://github.com/IOUJared/cs2stat#readme",
+  "dependencies": {
+    "@astrojs/cloudflare": "^12.6.2",
+    "@astrojs/tailwind": "^6.0.2",
+    "astro": "^5.12.8",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0"
+  }
+}

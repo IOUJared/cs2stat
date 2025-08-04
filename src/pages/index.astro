@@ -1,0 +1,48 @@
+---
+import Layout from '../layouts/Layout.astro';
+import StatsCard from '../components/StatsCard.astro';
+---
+
+<Layout title="CS2 Stats Tracker">
+  <div class="px-4 py-8">
+    <div class="text-center mb-8">
+      <h1 class="text-4xl font-bold text-cs2-orange mb-4">
+        CS2 Stats Tracker
+      </h1>
+      <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+        Track your Counter-Strike 2 performance and compare stats with your friends. 
+        Get detailed insights into your gameplay just like Leetify.
+      </p>
+    </div>
+    
+    <div class="max-w-6xl mx-auto">
+      <div class="mb-8">
+        <h2 class="text-2xl font-semibold text-white mb-4">Your Stats</h2>
+        <StatsCard />
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <div class="bg-cs2-gray p-6 rounded-lg">
+          <h3 class="text-lg font-semibold text-cs2-orange mb-2">Real-time Data</h3>
+          <p class="text-gray-300">
+            Stats are fetched directly from Steam's API, ensuring you always have the most up-to-date information.
+          </p>
+        </div>
+        
+        <div class="bg-cs2-gray p-6 rounded-lg">
+          <h3 class="text-lg font-semibold text-cs2-orange mb-2">Detailed Analytics</h3>
+          <p class="text-gray-300">
+            Track kills, deaths, K/D ratio, headshot percentage, accuracy, and total playtime.
+          </p>
+        </div>
+        
+        <div class="bg-cs2-gray p-6 rounded-lg">
+          <h3 class="text-lg font-semibold text-cs2-orange mb-2">Friend Comparisons</h3>
+          <p class="text-gray-300">
+            Compare your performance with friends and see who's dominating the leaderboards.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
